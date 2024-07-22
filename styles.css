@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #4c864c;
+    color: white;
+    margin-top: 0;
+    margin-left: 0;
+    gap: 10px;
+    height: 30px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+   
+
+
+.right{
+    display: flex;
+    gap: 25px;
+    align-items: flex-end;
+   
+}
