@@ -116,7 +116,7 @@ button:hover{
 }
 
 .quote{
-    padding: 80px;
+    padding: 60px;
     text-align: center;
     background-color: #E7F0DC;
     color: #597445;
@@ -161,4 +161,11 @@ button:hover{
     color: #E7F0DC;
     font-size: 10px;
     text-align: left;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #d8e2cd;
+    font-size: 10px;
 }
