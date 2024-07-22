@@ -11,17 +11,24 @@ html, body {
     color: white;
     gap: 10px;
     height: 30px;
+    text-decoration: none;
     padding: 8px;
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
+    
+    
     font-size: 20px;
 }
 .right{
     display: flex;
     gap: 25px;
     align-items: flex-end;
+}
+a {
+    color: inherit; /* Make the link color inherit from its parent */
+    text-decoration: none; /* Remove the underline */
 }
 
 .body1{
@@ -81,7 +88,8 @@ button:hover{
     color: #E7F0DC;
     background-color: #729762;
     font-size: 35px;
-    padding: 10px;
+
+    padding-top: 20px;
     text-align: center;
     font-weight: 700;
     align-items: flex-start;
