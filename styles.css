@@ -116,7 +116,7 @@ button:hover{
 }
 
 .quote{
-    padding: 120px;
+    padding: 80px;
     text-align: center;
     background-color: #E7F0DC;
     color: #597445;
@@ -134,11 +134,14 @@ button:hover{
 }
 
 .help{
+    display: flex;
     padding: 10px;
     text-align: center;
     background-color: #E7F0DC;
     font-size: 25px;
-
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 
@@ -146,6 +149,16 @@ button:hover{
     display: flex;
     border-radius: 10px;
     background-color: #597445;
-    padding: 25px
-    
+    padding: 20px;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.leftpop{
+    display: flex;
+    flex-direction: column;
+    color: #E7F0DC;
+    font-size: 10px;
+    text-align: left;
 }
