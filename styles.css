@@ -17,8 +17,6 @@ html, body {
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
-    
-    
     font-size: 20px;
 }
 .right{
@@ -34,15 +32,18 @@ a {
 .body1{
     background-color: #E7F0DC;
     display:flex;
+    flex: 1;
     justify-content: space-around;
     align-items: flex-start;
     padding: 50px;
+    padding-bottom: 50px;
     gap: 200px;
     color: #658147;
 
 }
 .body1 img {
     width: 450px;
+    flex: 1;
     height: 300px;
     border-radius: 8px;
   
@@ -79,7 +80,8 @@ button:hover{
     background-color: #729762;
     color:#E7F0DC;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 
     padding: 50px;
 }
@@ -88,7 +90,6 @@ button:hover{
     color: #E7F0DC;
     background-color: #729762;
     font-size: 35px;
-
     padding-top: 20px;
     text-align: center;
     font-weight: 700;
@@ -98,6 +99,8 @@ button:hover{
 
 .gallaryCont img{
     width: 120%;
+    flex-wrap: wrap;
+    display: flex;
     height: 140px;
     margin: 5px;
     border-radius: 8px;
@@ -110,4 +113,39 @@ button:hover{
     text-align: center;
     max-width: 200px;
     padding: 10px;
+}
+
+.quote{
+    padding: 120px;
+    text-align: center;
+    background-color: #E7F0DC;
+    color: #597445;
+    font-size: 25px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.author{
+    margin-left: auto;
+    width: 100%;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.help{
+    padding: 10px;
+    text-align: center;
+    background-color: #E7F0DC;
+    font-size: 25px;
+
+}
+
+
+.pop{
+    display: flex;
+    border-radius: 10px;
+    background-color: #597445;
+    padding: 25px
+    
 }
