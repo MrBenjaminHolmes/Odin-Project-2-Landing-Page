@@ -3,7 +3,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
 .header{
     display: flex;
@@ -25,8 +24,8 @@ html, body {
     align-items: flex-end;
 }
 a {
-    color: inherit; /* Make the link color inherit from its parent */
-    text-decoration: none; /* Remove the underline */
+    color: inherit;
+    text-decoration: none; 
 }
 
 .body1{
@@ -39,7 +38,6 @@ a {
     padding-bottom: 50px;
     gap: 200px;
     color: #658147;
-
 }
 .body1 img {
     width: 450px;
@@ -69,7 +67,6 @@ button{
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-
 button:hover{
     outline-color: transparent;
     outline-style:solid;
@@ -85,7 +82,6 @@ button:hover{
 
     padding: 50px;
 }
-
 .mission{
     color: #E7F0DC;
     background-color: #729762;
@@ -96,7 +92,6 @@ button:hover{
     align-items: flex-start;
     gap: 5px;
 }
-
 .gallaryCont img{
     width: 120%;
     flex-wrap: wrap;
@@ -105,7 +100,6 @@ button:hover{
     margin: 5px;
     border-radius: 8px;
 }
-
 .gallaryCont div{
     flex:1;
     display: flex;
@@ -114,7 +108,6 @@ button:hover{
     max-width: 200px;
     padding: 10px;
 }
-
 .quote{
     padding: 60px;
     text-align: center;
@@ -132,7 +125,6 @@ button:hover{
     text-align: right;
     padding-top: 50px;
 }
-
 .help{
     display: flex;
     padding: 10px;
@@ -143,8 +135,6 @@ button:hover{
     justify-content: center;
     padding-bottom: 50px;
 }
-
-
 .pop{
     display: flex;
     border-radius: 10px;
@@ -154,7 +144,6 @@ button:hover{
     gap: 100px;
 
 }
-
 .leftpop{
     display: flex;
     flex-direction: column;
@@ -162,7 +151,6 @@ button:hover{
     font-size: 10px;
     text-align: left;
 }
-
 .footer{
     text-align: center;
     padding: 10px;
